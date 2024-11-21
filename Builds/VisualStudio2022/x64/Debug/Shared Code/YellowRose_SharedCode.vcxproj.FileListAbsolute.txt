@@ -1,0 +1,1 @@
+C:\Users\Michael\Desktop\Plugins\JUCE\MyPlugins\YellowRose\Builds\VisualStudio2022\x64\Debug\Shared Code\YellowRose.lib

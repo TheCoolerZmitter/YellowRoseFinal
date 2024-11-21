@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YellowRose - Standalone Plugin", "YellowRose_StandalonePlugin.vcxproj", "{DA8E0F24-983E-935B-9486-6696C0EDCF63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820} = {B7F0E700-44CC-485E-BB89-BE37C88D2820}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YellowRose - VST3", "YellowRose_VST3.vcxproj", "{F7C89A60-6578-E417-ABA1-B585C86AAE0A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820} = {B7F0E700-44CC-485E-BB89-BE37C88D2820}
+		{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B} = {6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YellowRose - Shared Code", "YellowRose_SharedCode.vcxproj", "{B7F0E700-44CC-485E-BB89-BE37C88D2820}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YellowRose - VST3 Manifest Helper", "YellowRose_VST3ManifestHelper.vcxproj", "{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C89A60-6578-E417-ABA1-B585C86AAE0A}.Debug|x64.ActiveCfg = Debug|x64
+		{F7C89A60-6578-E417-ABA1-B585C86AAE0A}.Debug|x64.Build.0 = Debug|x64
+		{F7C89A60-6578-E417-ABA1-B585C86AAE0A}.Release|x64.ActiveCfg = Release|x64
+		{F7C89A60-6578-E417-ABA1-B585C86AAE0A}.Release|x64.Build.0 = Release|x64
+		{DA8E0F24-983E-935B-9486-6696C0EDCF63}.Debug|x64.ActiveCfg = Debug|x64
+		{DA8E0F24-983E-935B-9486-6696C0EDCF63}.Debug|x64.Build.0 = Debug|x64
+		{DA8E0F24-983E-935B-9486-6696C0EDCF63}.Release|x64.ActiveCfg = Release|x64
+		{DA8E0F24-983E-935B-9486-6696C0EDCF63}.Release|x64.Build.0 = Release|x64
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820}.Debug|x64.ActiveCfg = Debug|x64
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820}.Debug|x64.Build.0 = Debug|x64
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820}.Release|x64.ActiveCfg = Release|x64
+		{B7F0E700-44CC-485E-BB89-BE37C88D2820}.Release|x64.Build.0 = Release|x64
+		{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}.Debug|x64.ActiveCfg = Debug|x64
+		{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}.Debug|x64.Build.0 = Debug|x64
+		{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}.Release|x64.ActiveCfg = Release|x64
+		{6CAFEFD8-B1CD-29D0-7B51-5EFEEEE8263B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

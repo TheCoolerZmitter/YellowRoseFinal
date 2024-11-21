@@ -1,0 +1,4 @@
+﻿  ChopComponent.cpp
+C:\Users\Michael\Desktop\Plugins\JUCE\MyPlugins\YellowRose\Source\ChopComponent.cpp(20,19): warning C4996: 'juce::Font::Font': Use the constructor that takes a FontOptions argument
+C:\Users\Michael\Desktop\Plugins\JUCE\MyPlugins\YellowRose\Source\ChopComponent.cpp(37,24): warning C4996: 'juce::Font::Font': Use the constructor that takes a FontOptions argument
+  YellowRose_SharedCode.vcxproj -> C:\Users\Michael\Desktop\Plugins\JUCE\MyPlugins\YellowRose\Builds\VisualStudio2022\x64\Debug\Shared Code\YellowRose.lib
