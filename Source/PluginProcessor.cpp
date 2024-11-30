@@ -224,7 +224,7 @@ void YellowRoseAudioProcessor::chopSample() {
     timeSkip = mAPVTS.getRawParameterValue("TIMESKIP")->load();
     skipFreq = mAPVTS.getRawParameterValue("SKIPFREQ")->load();
 
-    if (skipFreq + timeSkip < 500 && skipFreq + timeSkip > -500) {
+    if (skipFreq + timeSkip < 500) {
         timeSkip = 0;
     }
 
