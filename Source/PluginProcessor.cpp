@@ -338,8 +338,8 @@ juce::AudioProcessorValueTreeState::ParameterLayout YellowRoseAudioProcessor::cr
     parameters.push_back(std::make_unique < juce::AudioParameterFloat > ("DECAY", "Decay", 0.0f, 2.0f, 1.0f));
     parameters.push_back(std::make_unique < juce::AudioParameterFloat > ("SUSTAIN", "Sustain", 0.0f, 1.0f, 1.0f));
     parameters.push_back(std::make_unique < juce::AudioParameterFloat > ("RELEASE", "Release", 0.0f, 1.0f, 0.1f));
-    parameters.push_back(std::make_unique < juce::AudioParameterInt > ("TIMESKIP", "Time to Skip", -9999, 10000, 0));
-    parameters.push_back(std::make_unique < juce::AudioParameterInt > ("SKIPFREQ", "Frequency", 1000, 20000, 2000));
+    parameters.push_back(std::make_unique < juce::AudioParameterInt > ("TIMESKIP", "Time to Skip", 0, 10000, 0));
+    parameters.push_back(std::make_unique < juce::AudioParameterInt > ("SKIPFREQ", "Frequency", 500, 20000, 2000));
 
     return { parameters.begin(), parameters.end() };
 }
