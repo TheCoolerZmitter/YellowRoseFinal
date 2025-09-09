@@ -8,7 +8,18 @@ Yellow Rose is a VST audio plugin that takes an audio file input (.mp3, .wav) an
  would be a chop amount of -5ms and a frequency of 10ms, which means every 10ms, the sample goes backwards 5ms, effectively doubling
  the length of the sample while giving it an interesting auditory texture.
 
+![Screenshot](./Examples/YellowRose.png?raw=true)
 
+Music example:
+[Listen to audio](./Examples/YRexample.mp3)
 
+Texture example:
+[Listen to audio](./Examples/YRtexture.mp3)
+
+Rhythm example:
+[Listen to audio](./Examples/YRrhythm.mp3)
+
+SFX example:
+[Listen to audio](./Examples/YRsoundeffect.mp3)
 
 Commit history is gone as I ran out of LFS space.
