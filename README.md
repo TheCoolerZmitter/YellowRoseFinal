@@ -11,15 +11,15 @@ Yellow Rose is a VST audio plugin that takes an audio file input (.mp3, .wav) an
 ![Screenshot](./Examples/YellowRose.png?raw=true)
 
 Music example:
-[Listen to audio](./Examples/YRexample.mp3)
+[Listen to audio](./Examples/YRexample.wav)
 
 Texture example:
-[Listen to audio](./Examples/YRtexture.mp3)
+[Listen to audio](./Examples/YRtexture.wav)
 
 Rhythm example:
-[Listen to audio](./Examples/YRrhythm.mp3)
+[Listen to audio](./Examples/YRrhythm.wav)
 
 SFX example:
-[Listen to audio](./Examples/YRsoundeffect.mp3)
+[Listen to audio](./Examples/YRsoundeffect.wav)
 
 Commit history is gone as I ran out of LFS space.
