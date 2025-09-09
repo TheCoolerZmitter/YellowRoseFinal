@@ -7,3 +7,8 @@ Yellow Rose is a VST audio plugin that takes an audio file input (.mp3, .wav) an
  of 1 second and a frequency of 0.5 seconds means that every half second, the sample skips forward by 1 second. One more example
  would be a chop amount of -5ms and a frequency of 10ms, which means every 10ms, the sample goes backwards 5ms, effectively doubling
  the length of the sample while giving it an interesting auditory texture.
+
+
+
+
+Commit history is gone as I ran out of LFS space.
